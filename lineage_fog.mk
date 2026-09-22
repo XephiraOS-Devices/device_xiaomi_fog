@@ -15,6 +15,15 @@ TARGET_BOOT_ANIMATION_RES := 720
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
 
+
+XEPHIRA_MAINTAINER := Ajay
+XEPHIRA_MAINTAINER_URL := https://github.com/phhgsi
+WITH_GMS := true
+# Hardware Specification Overrides (Displayed in Liquid Glass About Phone)
+XEPHIRA_SOC := Snapdragon 680 4G
+XEPHIRA_BATTERY := 5000 mAh
+XEPHIRA_DISPLAY_SPEC := 6.71" IPS LCD
+XEPHIRA_CAMERA := 50MP
 PRODUCT_NAME := lineage_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
